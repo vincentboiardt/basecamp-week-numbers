@@ -2,7 +2,7 @@
 **Basecamp Week Numbers** is a small Google Chrome extension that prepends the week number to each calendar row. Pretty nifty!
 
 ## Info
-* Created by: Vincent Boiardt
+* Author: Vincent Boiardt
 * Website: [http://boiardt.se/basecamp-week-numbers](http://boiardt.se/basecamp-week-numbers)
 
 ## About
