@@ -1,0 +1,12 @@
+{
+   "content_scripts": [ {
+      "exclude_globs": [  ],
+      "include_globs": [  ],
+      "js": [ "script.js" ],
+	  "css": [ "style.css" ],
+      "matches": [ "http://*.basecamphq.com/*", "https://*.basecamphq.com/*" ]
+   } ],
+   "description": "",
+   "name": "Basecamp Week Numbers",
+   "version": "1.0"
+}

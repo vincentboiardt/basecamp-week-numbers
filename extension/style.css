@@ -1,0 +1,14 @@
+.owc-week-number {
+	position: absolute;
+	top: 19px;
+	left: -19px;
+	width: 16px;
+	height: 16px;
+	font: 8px/16px Verdana, Geneva, sans-serif;
+	text-align: center;
+	color: #fff;
+	background: #036;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
