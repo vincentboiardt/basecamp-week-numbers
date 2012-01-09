@@ -16,8 +16,6 @@ var add_jq = function(callback) {
 function main(){
 	var j = jQuery.noConflict();
 	var WeekNumbers = {
-		projects: {},
-		
 		init: function() {
 			WeekNumbers.addWeeks();
 			
@@ -27,8 +25,6 @@ function main(){
 			
 			container = container[0];
 			container.addEventListener("DOMNodeInserted", WeekNumbers.addWeeks);
-			
-			console.log(WeekNumbers.startDay);
 		},
 		addWeeks: function() {
 			
@@ -38,7 +34,7 @@ function main(){
 					
 				var d = j(this).find('td:first-child').data('date');
 				var date = new Date(d);
-				var weekNumber = WeekNumbers.getWeek(date, 1);
+				var weekNumber = WeekNumbers.getWeek(date, WeekNumbers.startDay);
 				
 				j(this).addClass('owc-modified').parent().prev('.month_row_spanned_position').append('<span class="owc-week-number">' + weekNumber + '</span>');
 			});
